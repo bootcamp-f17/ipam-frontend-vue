@@ -44,7 +44,11 @@ Network 4  =  192.168.123.(193-254)
 
 ## IPAM Application
 
-The requested items for our IPAM app will be listed and explained below. These should be viewable on a per-site basis:
+The requested items for our IPAM app will be listed and explained below. 
+
+### Per-Site
+
+These should be viewable on a per-site basis:
 
 * Name: Name of the subnet.
 
@@ -61,3 +65,25 @@ The requested items for our IPAM app will be listed and explained below. These s
 * Notes: A note section for making shorthand notes about subnets.
 
 * View Equipment Button: A button that, when clicked, will show all hosts on the selected subnet.
+
+### Per-Subnet
+
+These should be viewable on a per-subnet basis:
+
+* Name: Device (host) name.
+
+* Type: Host type (Printer, Switch, PC, other, etc).
+
+* Hostname: ??
+
+* Room Number: Room number that host is physically located in.
+
+* IP Address: Full IP Address of the host.
+
+* MAC: MAC Address of the host (device specific).
+
+* MAB: (true / false) ??
+
+* Driver: Driver name for host (if host is printer).
+
+* Share name: Network name for host (if host is printer).

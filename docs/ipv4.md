@@ -42,3 +42,22 @@ Network 3  =  192.168.123.(129-190)
 Network 4  =  192.168.123.(193-254)
 ```
 
+## IPAM Application
+
+The requested items for our IPAM app will be listed and explained below. These should be viewable on a per-site basis:
+
+* Name: Name of the subnet.
+
+* Site Name: The Site the displayed subnets belong to.
+
+* Sub Address: The Network address for the subnet.
+
+* Mask Bits: The bits used in the subnet mask to divide the subnet. 2 digits.
+
+* VLAN: VLANs are virtual LANs (Large Area Networks) that group together devices (hosts) that communicate with each other frequently. VLANs allow for network switches to be utilized to take load off of the main routers. 3 digits.
+
+* Lease Time: Amount of time to keep connection alive, apparently always 604800 seconds.
+
+* Notes: A note section for making shorthand notes about subnets.
+
+* View Equipment Button: A button that, when clicked, will show all hosts on the selected subnet.
